@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/glightbox.min.css" />
 	</head>
 	<body class="is-preload">
 
@@ -60,7 +61,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/Thermal4.png" alt="" /></a>
+									<a href="images/Thermal4.png" class="glightbox"><img src="images/Thermal4.png" alt="" class="image fit" /></a>
 									<div class="content">
 										<h2 class="major">Thermomechanical Analysis</h2>
 										<p>I have worked extensively on thermomechanical analyses of cylinder heads and blocks. The combustion face for cylinder heads has to be designed such that
@@ -78,7 +79,7 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/Cap.png" alt="" /></a>
+									<a href="images/Cap.png" class="glightbox"><img src="images/Cap.png" alt="" class="image fit" /></a>
 									<div class="content">
 										<h2 class="major">Modal and Stress Analysis</h2>
 										<p> As part of my current role, I have to regularly analyze different components for stress and deformation under specific loading conditions. The load application 
@@ -131,6 +132,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/glightbox.min.js"></script>
+		
+			<script types="text/javascript">
+				const lightbox = GLightbox({ loop: true });
+			</script>
 
 	</body>
 </html>
